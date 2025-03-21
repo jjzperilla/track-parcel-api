@@ -1,0 +1,8 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "deploy": {
+    "command": "node api/track.js"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "track-parcel-api",
+  "version": "1.0.0",
+  "main": "api/track.js",
+  "scripts": {
+    "start": "node api/track.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "puppeteer-core": "^21.1.1",
+    "@sparticuz/chromium": "^120.0.0"
+  }
+}
