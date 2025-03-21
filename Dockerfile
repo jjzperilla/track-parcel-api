@@ -4,8 +4,8 @@ FROM node:18-slim
 # Set the working directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json to install dependencies first
-COPY package.json package-lock.json ./
+# Copy package.json and package-lock.json first
+COPY package.json ./
 
 # Install dependencies
 RUN npm install
